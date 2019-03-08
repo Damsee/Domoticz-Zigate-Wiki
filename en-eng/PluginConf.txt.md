@@ -35,6 +35,7 @@ If you name the file PluginConf-xx.txt ( where xx is the HardwareId of the plugi
 | enableReadAttributes | 0 | If set to 1, the plugin will poll information from each of the main powered devices. It might be needed for some devices which doesn't all to set Configure Automatic reporting |
 | resetMotiondelay | 30 | Number of seconds before a reset of the Motion widget status | 4.1 |
 | vibrationAqarasensitivity | 'medium' | Sensitivity of Vibration aqara device ('high', 'medium', 'low') | 4.1 |
+| TradfriKelvinStep | 51 | When using the Ikea 5 Button Left/Right with Whitecolored bulbs, this is the step used to move from one kelvin level to an other. It is step of 18 K from 1700 to 6300 . | 4.1 |
 
 ### Zigate Configuration
 | Field                | Default | Description | Version |
